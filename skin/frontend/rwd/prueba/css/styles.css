@@ -3987,6 +3987,8 @@ a.skip-link {
   width: 100%;
   border-top: 1px solid #cccccc;
   padding-top: 30px;
+
+ 
   /* -------------------------------------------- *
    * Social icons
    */
@@ -4137,11 +4139,12 @@ a.skip-link {
 }
 .footer address {
   border-top: 1px solid #cccccc;
-  text-align: center;
+  
   width: 100%;
   font-size: 11px;
   margin-top: 30px;
   padding: 30px 0;
+  float left;
 }
 @media only screen and (max-width: 1199px) {
   .footer .links {
@@ -10625,6 +10628,10 @@ vertical-align: middle;
 
       background-image: url("../images/bgh.png");
       height:100%;
+       
+  
+  
+
     }
     .welcome-msg{
         color: #d8d8d8;
@@ -10709,7 +10716,7 @@ float:left;
  }
 
 .customer-account-login  {
-  background-image: url("../images/backgroundheader.png");
+  background-image: url("../images/bgh.png");
 }
 #nav{
   float: left;
@@ -10722,7 +10729,7 @@ html, body {
 
 
 
-.skip-account{background:url(../images/backgroundheader.png) left center no-repeat;}
+.skip-account{background:url(../images/bgh.png) left center no-repeat;}
 .label1{
   font-family: "AvenirNextLTPro Reguler", sans-serif;
   float: left;
@@ -10736,4 +10743,59 @@ html, body {
   font-size: 13px;
   line-height: 22px; 
   text-transform: none;
+}
+
+#copyr{
+
+     background:url(../images/bgh.png);
+     position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+   }
+
+#copyr address{
+
+    color: white;
+
+}
+#credito .tarjetas{
+  float: left;
+margin-right: 10px;
+}
+#derechos {
+
+  margin-top: 20px;
+
+ 
+}
+html { overflow-x:hidden; }
+#credito{
+  margin-top: 20px;
+
+}
+address a{color: orange;
+
+text-decoration: none;
+}
+address a:hover{color: red;
+text-decoration: none;}
+
+
+#credito a img{
+
+
+display: inline-block;
+
+filter: alpha(opacity=50); moz-opacity:.50; opacity:.50;
+}
+
+#credito a img:hover{
+
+opacity: 1; -moz-opacity: 1; filter: alpha(opacity=100);
+}
+.mywelcome p{
+
+margin-left: 120px;
+margin-top: 15px;
 }

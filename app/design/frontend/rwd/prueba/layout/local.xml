@@ -30,7 +30,7 @@
        <reference name="footer">
 ...
 <!-- esta es la línea que tenemos que añadir -->
-<block type="core/template" name="copyr"   template="copyr/copyr.phtml" as="copyr" />
+
 ...
 </reference>
 
