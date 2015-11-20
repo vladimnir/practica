@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <!--
+    Default layout, loads most of the pages
+    -->
+
+    <default >
+
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/custom.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/responsive.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/bootstrap.css</stylesheet></action>
+             <action method="addCss"><stylesheet>css/bootstrap.min.css</stylesheet></action>
+          
+            
+        </reference>   
+
+         
+
+<reference name="header">
+
+
+
+
+
+</reference>
+
+       <reference name="footer">
+...
+<!-- esta es la línea que tenemos que añadir -->
+<block type="core/template" name="copyr"   template="copyr/copyr.phtml" as="copyr" />
+...
+</reference>
+
+
+<reference name="top.links">
+<action method="removeLinkByUrl"><url helper="customer/getRegisterUrl"/></action>
+</reference>
+
+
+ <remove name="footer_links" />
+  <remove name="footer_links2" />
+   <remove name="footer_links_company" />
+     <remove name="paypal.partner.right.logo" />
+   <remove name="right.poll" />
+
+  
+
+ 
+
+
+
+        
+
+    </default>
+
+    
+</layout>
